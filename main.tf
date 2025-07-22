@@ -22,3 +22,8 @@ resource "azurerm_resource_group" "rg5" {
   name     = var.rg5
   location = "West Europe"
 }
+
+resource "azurerm_resource_group" "rg6" {
+  name     = "vertu"
+  location = "West Europe"
+}
